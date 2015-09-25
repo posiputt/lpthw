@@ -1,0 +1,11 @@
+Math symbols
+
++   plus                    addition
+-   minus                   substraction
+/   slash                   division
+*   asterisk                multiplication
+%   percent                 modulo
+<   less-than               is the first number lesser than the second?
+>   greater-than            is the first number greater than the second?
+<=  less-than-equal         is the fist number lesser or equal to the second?
+>=  greater-than-equal      is the first number greater or equal to the second?
