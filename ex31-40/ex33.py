@@ -2,11 +2,10 @@ def makeList(threshold, increment):
     i = 0
     numbers = []
 
-    while i < threshold:
+    for i in range(0, threshold, increment):
         print "At the top i is %d" % i
         numbers.append(i)
 
-        i = i + increment
         print "Numbers now: ", numbers
         print "At the bottom i is %d" % i
 
@@ -29,6 +28,8 @@ if buyAList == "yes":
         exit("That's not a list!")
     print "By how much should I increment between elements?"
     increment = int(raw_input("> "))
+    if increment < 1:
+        exit("I will not increment by that number, it is scratched.")
 else:
     exit("Suit yourself.")
 
